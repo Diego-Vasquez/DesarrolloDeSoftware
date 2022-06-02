@@ -1,3 +1,9 @@
+package Fase2.Pruebas;
+
+import Fase2.Produccion.BusinessFlight;
+import Fase2.Produccion.EconomyFlight;
+import Fase2.Produccion.Flight;
+import Fase2.Produccion.Passenger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

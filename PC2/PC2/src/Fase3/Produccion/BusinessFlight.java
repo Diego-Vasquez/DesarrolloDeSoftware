@@ -1,3 +1,5 @@
+package Fase3.Produccion;
+
 public class BusinessFlight extends Flight {
 
     public BusinessFlight(String id) {

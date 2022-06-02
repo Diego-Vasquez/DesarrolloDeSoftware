@@ -1,3 +1,5 @@
+package Fase5.Produccion;
+
 public class Passenger {
 
     private String name;

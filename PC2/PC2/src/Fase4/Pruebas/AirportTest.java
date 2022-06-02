@@ -1,5 +1,9 @@
-package
+package Fase4.Pruebas;
 
+import Fase4.Produccion.BusinessFlight;
+import Fase4.Produccion.EconomyFlight;
+import Fase4.Produccion.Flight;
+import Fase4.Produccion.Passenger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -108,6 +112,6 @@ public class AirportTest {
             }
         }
     }
-
+}
 // Completa la prueba para PremiumFlight de acuerdo a la logica comercial dada. Pregunta 6
 

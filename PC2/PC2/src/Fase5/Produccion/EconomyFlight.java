@@ -1,3 +1,4 @@
+package Fase5.Produccion;
 
 public class EconomyFlight extends Flight {
 

@@ -1,3 +1,5 @@
+package Fase2.Produccion;
+
 public class EconomyFlight extends Flight {
 
     public EconomyFlight(String id) {

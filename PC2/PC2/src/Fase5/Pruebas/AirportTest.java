@@ -1,3 +1,9 @@
+package Fase5.Pruebas;
+
+import Fase5.Produccion.BusinessFlight;
+import Fase5.Produccion.EconomyFlight;
+import Fase5.Produccion.Flight;
+import Fase5.Produccion.Passenger;
 import org.junit.jupiter.api.*;
 
 import java.util.ArrayList;
