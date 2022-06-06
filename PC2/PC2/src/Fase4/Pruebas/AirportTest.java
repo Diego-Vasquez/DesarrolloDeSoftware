@@ -168,7 +168,7 @@ public class AirportTest {
                 //usamos otra vez asserAll
                 assertAll("Verifica todas las condiciones para un pasajero VIP y un vuelo premium",
                         //Compropbamos que podemos agregar un pasajero a un vuelo premium.
-                        () -> assertEquals(true, premiumFlight.addPassenger(cesar
+                        () -> assertEquals(true, premiumFlight.addPassenger(cesar)),
                         //Comprobamos que al agregar pasajeros aumenta el tamaño de la lista de pasajeros.
                         () -> assertEquals(1, premiumFlight.getPassengersList().size()),
                         //Comprobamos que podemos eliminar un pasajero de un vuelo premium.
