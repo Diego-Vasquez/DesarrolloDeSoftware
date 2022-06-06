@@ -3,6 +3,8 @@
 ## Respuestas 
 
 ### 1. Si ejecutamos las pruebas con cobertura desde IntelliJ IDEA, ¿cuales son los resultados que se muestran?, ¿Por qué crees que la cobertura del código no es del 100%?
+Al aplicarle las pruebas de cobertura, podemos observar que para la fase 1, podemos ver que tenemos cubierto 79% del total del codigo.
+sin embargo al ejecutar la fase 2, notamos que en este caso IntelliJ logra cubrir el 100 del codigo, 
 
 ### 2. ¿ Por qué John tiene la necesidad de refactorizar la aplicación?
 
