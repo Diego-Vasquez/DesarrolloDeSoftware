@@ -123,6 +123,9 @@ public class AirportTest {
         
         @BeforeEach
         void setUp() {
+            premiumFlight = new PremiumFlight("3");
+            jessica = new Passenger("Jessica", false);
+            cesar = new Passenger("Cesar", true);
         }
         
         @Nested
