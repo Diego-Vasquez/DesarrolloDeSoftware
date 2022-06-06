@@ -1,5 +1,6 @@
 package Fase4.Pruebas;
 
+import Fase4.Produccion.*;
 import Fase4.Produccion.BusinessFlight;
 import Fase4.Produccion.EconomyFlight;
 import Fase4.Produccion.Flight;
