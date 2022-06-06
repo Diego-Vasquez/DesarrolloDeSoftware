@@ -117,5 +117,8 @@ public class AirportTest {
     DisplayName("Dado que hay un vuelo premium")
     @Nested
     class PremiumFlightTest {
+        private Flight premiumFlight;
+        private Passenger jessica;
+        private Passenger cesar;    
     }
 }
