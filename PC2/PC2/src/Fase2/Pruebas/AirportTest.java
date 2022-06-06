@@ -30,10 +30,12 @@ public class AirportTest {
 
             assertEquals("1", economyFlight.getId());
             assertEquals(true, economyFlight.addPassenger(jessica));
+            assertEquals(true, economyFlight.removePassenger(jessica));
+
+
+
             assertEquals(1, economyFlight.getPassengers().size());
             assertEquals("Jessica", economyFlight.getPassengers().get(0).getName());
-
-            assertEquals(true, economyFlight.removePassenger(jessica));
             assertEquals(0, economyFlight.getPassengers().size());
         }
 
