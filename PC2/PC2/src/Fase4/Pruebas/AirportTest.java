@@ -131,6 +131,17 @@ public class AirportTest {
         @Nested
         @DisplayName("Cuando tenemos un pasajero regular")
         class RegularPassenger {
+
+            @Test
+            @DisplayName("Entonces no puedes agregarlo o quitarlo de un vuelo premium")
+            public void testPremiumFlightRegularPassenger() {
+                assertAll("Verifica todas las condiciones para un pasajero regular y un vuelo premium",
+                        () -> assertEquals(false, premiumFlight.addPassenger(jessica)),
+                        () -> assertEquals(0, premiumFlight.getPassengersList().size()),
+                        () -> assertEquals(false, premiumFlight.removePassenger(jessica)),
+                        () -> assertEquals(0, premiumFlight.getPassengersList().size())
+                );
+            }
         }
         
         @Nested
