@@ -7,12 +7,12 @@ public class PremiumFlight extends Flight {
 
     @Override
     public boolean addPassenger(Passenger passenger) {
-        return false;
+        return passengers.add(passenger);
     }
 
     @Override
     public boolean removePassenger(Passenger passenger) {
-        return false;
+        return passengers.remove(passenger);
     }
 
     // Diseño inicial de la clase  PremiumFlight. Pregunta 5
