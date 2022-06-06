@@ -14,21 +14,23 @@ import static org.junit.jupiter.api.Assertions.*;
 public class AirportTest {
 
    // Refactorización de la clase AirportTest. Pregunta 3
-    private Flight claseEconomica;
-    private Passenger pasajero1;
+    private Flight claseEconomica; //Se crea una variaable de tipo Flight
+    private Passenger pasajero1; //se crea dos variables  de  tipo pasajero
     private Passenger pasajero2;
+   //notación se usa para indicar que el método anotado debe ejecutarse antes de cada invocación del método @Test 
     @BeforeEach
 
     public void setup(){
-        claseEconomica = new EconomyFlight("1");
-        pasajero1 = new Passenger("Hamer",false);
+        claseEconomica = new EconomyFlight("1");//Se crea y se instancia una variable de tipo EconmyFlight
+        pasajero1 = new Passenger("Hamer",false);//de la misma manera se crea y se instancia  varibales de tipo Passenger
         pasajero2 = new Passenger("Franklin", true);
     }
-    //Se realiza el primer testeo  con una pasajero de clase regular
+    //La clase anidada se coloca dentro de otra clase y se organiza en una estructura jerárquica
     @Nested
     class ClaseRegular{
         @Test
         public void  testEconomyFlightRegularPassenger(){
+           //Se inician las pruebas de cada uno de los metodos que se encuentran implementadas en la carpeta de prodccion para verificar su correcto funcionamiento
             assertEquals("1",claseEconomica.getId());
             assertEquals(true,claseEconomica.addPassenger(pasajero1));
             assertEquals(1,claseEconomica.getPassengersList().size());
