@@ -114,7 +114,7 @@ public class AirportTest {
     }
 // Completa la prueba para PremiumFlight de acuerdo a la logica comercial dada. Pregunta 6
 
-    DisplayName("Dado que hay un vuelo premium")
+    @DisplayName("Dado que hay un vuelo premium")
     @Nested
     class PremiumFlightTest {
         private Flight premiumFlight;
