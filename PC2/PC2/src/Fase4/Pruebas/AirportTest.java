@@ -114,4 +114,54 @@ public class AirportTest {
     }
 }
 // Completa la prueba para PremiumFlight de acuerdo a la logica comercial dada. Pregunta 6
+@DisplayName("Dado que hay un vuelo premium")
+@Nested
+class PremiumFlightTest {
+    private Flight premiumFlight;
+    private Passenger mike;
+    private Passenger james;
 
+    @BeforeEach
+    void setUp() {
+        premiumFlight = new PremiumFlight("3");
+        mike = new Passenger("Mike", false);
+        james = new Passenger("James", true);
+    }
+
+    @Nested
+    @DisplayName("Cuando tenemos un pasajero regular")
+    class RegularPassenger {
+
+        @Test
+        @DisplayName("Entonces no puedes agregarlo o quitarlo de un vuelo premium")
+        public void testPremiumFlightRegularPassenger() {
+            assertAll("Verifica todas las condiciones para un pasajero regular y un vuelo premium",
+                    () -> assertEquals(false, premiumFlight.addPassenger(mike)),
+                    () -> assertEquals(0, premiumFlight.getPassengersList().size()),
+                    () -> assertEquals(false, premiumFlight.removePassenger(mike)),
+                    () -> assertEquals(0, premiumFlight.getPassengersList().size())
+            );
+        }
+    }
+
+    @Nested
+    @DisplayName("Cuando tenemos un pasajero VIP")
+    class VipPassenger {
+
+        @Test
+        @DisplayName("Luego puede agregarlo y eliminarlo de un vuelo premium")
+        public void testPremiumFlightVipPassenger() {
+            assertAll("Verifica todas las condiciones para un pasajero VIP y un vuelo premium",
+                    () -> assertEquals(true, premiumFlight.addPassenger(james)),
+                    () -> assertEquals(1, premiumFlight.getPassengersList().size()),
+                    () -> assertEquals(true, premiumFlight.removePassenger(james)),
+                    () -> assertEquals(0, premiumFlight.getPassengersList().size())
+            );
+        }
+    }
+
+    @DisplayName("Dado que hay un vuelo premium")
+    @Nested
+    class PremiumFlightTest {
+    }
+}
