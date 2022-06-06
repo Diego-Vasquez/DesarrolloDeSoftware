@@ -66,8 +66,10 @@ Con la refactorización hemos optimizado el código del test y de esta manera as
 
 
 ### 5. Escribe el diseño inicial de la clase llamada PremiumFlight y agrega a la Fase 4 en la carpeta producción.
+Implementado directamente en el código
 
 ### 6. Ayuda a John e implementa las pruebas de acuerdo con la lógica comercial de vuelos premium de las figuras anteriores. Adjunta tu código en la parte que se indica en el código de la Fase 4. Después de escribir las pruebas, John las ejecuta
+Implementado directamente en el codigo
 
 ### 7. Agrega la lógica comercial solo para pasajeros VIP en la clase PremiumFlight. Guarda ese archivo en la carpeta Producción de la Fase 5.
 
