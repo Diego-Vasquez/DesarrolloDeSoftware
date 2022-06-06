@@ -159,10 +159,5 @@ public class AirportTest {
                 );
             }
         }
-        
-        @DisplayName("Dado que hay un vuelo premium")
-        @Nested
-        class PremiumFlightTest {
-        }
     }
 }
