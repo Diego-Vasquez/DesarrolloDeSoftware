@@ -23,9 +23,20 @@ solucionar algunos test que esten teniendo problemas para que así se pueden com
 otros test tambien deben estar funcionando, para finalmente poder optimizar algunos test manteniendo su funcionalidad.
 
 
-
-
 ### 2. ¿ Por qué John tiene la necesidad de refactorizar la aplicación?
+
+Para saber el porqué o la necesidad que tiene jhon en refactorizar la apliacación, primero debemos saber en sí, que es la refactorización.
+La refactorización es el tercer paso de la estructura de TDD, en la cual optimizamos los códigos de los test, asegurando su funcionalidad, para
+así poder tener un código limpio, funcional y altamente reutilizable.
+Por estas razones Jhon debería refactorizar su código, pues al pasarle por prueba de cobertura puede notar que en la primera fase
+hay 21% del código que aún no tiene pruebas unitarias, tambien al refactorizar puede darse cuenta si estan existiendo elementos que no 
+se estan utilizando para así depurarlos, en resumen refactorizar un proyecto, aplicar la técnica TDD, permite a un desarrollador 
+tener confianza en su trabajo, pues sabemos que al final tendremos como ya mencionado anteriormente, un producto, limpio, funcional
+y altamente reutilizable, que es un resultado de utilizar y tener conocimiento de las buenas prácticas de la programación. 
+
+
+
+
 
 ### 3. La refactorización y los cambios de la API se propagan a las pruebas.
 - Diagrama de clases de la fase tres:
