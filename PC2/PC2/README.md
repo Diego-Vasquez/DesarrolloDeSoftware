@@ -5,8 +5,20 @@
 ### 1. Si ejecutamos las pruebas con cobertura desde IntelliJ IDEA, ¿cuales son los resultados que se muestran?, ¿Por qué crees que la cobertura del código no es del 100%?
 Al aplicarle las pruebas de cobertura, podemos observar que para la fase 1
 ![Coverage 1](https://github.com/Diego-Vasquez/DesarrolloDeSoftware/blob/main/PC2/PC2/src/pictures/CoverageFase1.PNG)
+,podemos ver que tenemos cubierto 79% del total del codigo.
 
-, podemos ver que tenemos cubierto 79% del total del codigo.
+Sin embargo si ejecutamos las pruebas de cobertura para la fase 2
+![Coverage 2](https://github.com/Diego-Vasquez/DesarrolloDeSoftware/blob/main/PC2/PC2/src/pictures/CoverageFase2.PNG)
+,podemos notar que si se cumple la cobertura al 100 %, de la misma manera
+aplicaremos prueba de cobertura en la fase 3 y 4
+![Coverage 3](https://github.com/Diego-Vasquez/DesarrolloDeSoftware/blob/main/PC2/PC2/src/pictures/CoverageFase3.PNG)
+![Coverage 4](https://github.com/Diego-Vasquez/DesarrolloDeSoftware/blob/main/PC2/PC2/src/pictures/CoverageFase4.PNG)
+
+como notamos las pruebas de cobertura estan que abarcan todo el codigo.
+
+Ahora bien, porqué las pruebas de cobertura de la fase 1, solo abarca un 79%, esto podría ser por 
+
+
 
 
 
