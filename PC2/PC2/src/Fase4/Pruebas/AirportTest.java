@@ -119,6 +119,25 @@ public class AirportTest {
     class PremiumFlightTest {
         private Flight premiumFlight;
         private Passenger jessica;
-        private Passenger cesar;    
+        private Passenger cesar;   
+        
+        @BeforeEach
+        void setUp() {
+        }
+        
+        @Nested
+        @DisplayName("Cuando tenemos un pasajero regular")
+        class RegularPassenger {
+        }
+        
+        @Nested
+        @DisplayName("Cuando tenemos un pasajero VIP")
+        class VipPassenger {
+        }
+        
+        @DisplayName("Dado que hay un vuelo premium")
+        @Nested
+        class PremiumFlightTest {
+        }
     }
 }
