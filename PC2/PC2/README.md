@@ -35,7 +35,12 @@ Estas clases son probadas con  los dos tipos de pasajeros que tenemos que  los v
 La refactorización de la aplicación  básicamente nos permitió realizar iteraciones cortas y rápidas. Dado que aplicamos el concepto de divide y vencerás, al realizar  las pruebas de calidad.
 Con la refactorización hemos optimizado el código del test y de esta manera aseguramos la funcionalidad.
 
-### 4. ¿En qué consiste está regla relacionada a la refactorización?
+### 4. ¿En qué consiste la regla rule of three relacionada a la refactorización?
+- The rule of three  es una regla general de refactorización de código.
+- La idea básica de la refactorización de tres es que siempre que tengamos alguna duplicación necesitamos asegurarnos  de que realmente necesita ser extraída a veces dado que podemos cometer errores porque extraemos la posible duplicación demasiado pronto.
+
+- Lo que se busca con la regla de tres es tener una especie de guía que te diga que si existe código que se repite tres veces y que necesitas eliminar alguno de ellos y minimizar a duplicación, en ocasiones que se repita tres a veces  no es suficiente 
+
 
 ### 5. Escribe el diseño inicial de la clase llamada PremiumFlight y agrega a la Fase 4 en la carpeta producción.
 
