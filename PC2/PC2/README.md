@@ -16,14 +16,14 @@ aplicaremos prueba de cobertura en la fase 3 y 4
 
 como notamos las pruebas de cobertura estan que abarcan todo el codigo.
 
-Ahora bien, porqué las pruebas de cobertura de la fase 1, solo abarca un 79%, esto podría ser por 
+Ahora bien, porqué las pruebas de cobertura de la fase 1, solo abarca un 79%, esto nos indica que hay un 21% de codigo 
+que aún no está siendo cubierto por las pruebas unitarias, lo cual debemos tener en cuenta, pues siguiendo la estructura de 
+TDD sabemos que una buena practica es empezar a generar pruebas sabiendo si es que funcionará o no, para posteriormente, 
+solucionar algunos test que esten teniendo problemas para que así se pueden compilar sin problemas, teniendo en cuenta que los
+otros test tambien deben estar funcionando, para finalmente poder optimizar algunos test manteniendo su funcionalidad.
 
 
 
-
-
-
-sin embargo al ejecutar lafase 2, notamos que en este caso IntelliJ logra cubrir el 100 del codigo, 
 
 ### 2. ¿ Por qué John tiene la necesidad de refactorizar la aplicación?
 
