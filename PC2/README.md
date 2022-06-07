@@ -53,7 +53,8 @@ En el diagrama  de clases se muestra la relación entre las clases y las pruebas
 En esta fase  en el script de testAiroport, verificamos los dos métodos  que se encuentran  en el script Flight que son los métodos de eliminar y agregar pasajeros.
 Por este motivo lo que se hace  es realizar las pruebas  de los dos tipos de vuelos que hasta el momento tenemos que son Clase Económica y la clase de Negocios.
 Estas clases son probadas con  los dos tipos de pasajeros que tenemos que  los vip y los no vip.
-
+La cobertura fue de un 80%
+![Coverage 1](src/pictures/imagen_cobertura3.png)
 ##### ¿ La refactorización de la aplicación TDD ayudó tanto a mejorar la calidad del código?
 La refactorización de la aplicación  básicamente nos permitió realizar iteraciones cortas y rápidas. Dado que aplicamos el concepto de divide y vencerás, al realizar  las pruebas de calidad.
 Con la refactorización hemos optimizado el código del test y de esta manera aseguramos la funcionalidad.
